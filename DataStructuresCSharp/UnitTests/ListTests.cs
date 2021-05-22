@@ -122,5 +122,31 @@ namespace UnitTests
             myList.Length.Should().Be(expectedElements.Length);
             myList.Size.Should().Be(startElements.Length +1);
         }
+
+        [Fact]
+        public void Remove_GivenAValueContainedInTheList_ShouldRemoveItAndResize()
+        {
+            
+        }
+        
+        [Fact]
+        public void Remove_GivenAValueNotContainedInTheList_ShouldDoNothing()
+        {
+            
+        }
+        
+        [Theory]
+        [InlineData(-1)]
+        [InlineData(10)]
+        public void RemoveAt_GivenAnIndexOutsideListLength_ShouldThrowAnException(int index)
+        {
+            
+        }
+        
+        [Fact]
+        public void RemoveAt_GivenAValidIndex_ShouldRemoveAndResize()
+        {
+            
+        }
     }
 }
