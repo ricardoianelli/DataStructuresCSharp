@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresCSharp", "DataStructuresCSharp\DataStructuresCSharp.csproj", "{298C5C9C-7875-4E0F-A94B-70E642987870}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{5EF3A1B3-FF1A-4811-90FF-DCFEB7242F68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{298C5C9C-7875-4E0F-A94B-70E642987870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{298C5C9C-7875-4E0F-A94B-70E642987870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{298C5C9C-7875-4E0F-A94B-70E642987870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF3A1B3-FF1A-4811-90FF-DCFEB7242F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF3A1B3-FF1A-4811-90FF-DCFEB7242F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF3A1B3-FF1A-4811-90FF-DCFEB7242F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF3A1B3-FF1A-4811-90FF-DCFEB7242F68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
